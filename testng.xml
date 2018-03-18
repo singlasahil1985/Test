@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OS">
+<listeners >
+
+<listener class-name="sampleselenium.demilistener"></listener>
+</listeners>
+<test name="windows">
+
+
+<classes>
+
+<class name="sampleselenium.NewSample">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
